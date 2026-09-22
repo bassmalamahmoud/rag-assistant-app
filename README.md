@@ -168,7 +168,7 @@ The knowledge base covers **Python for Machine Learning fundamentals** across 25
 ```bash
 # Clone the repository
 git clone https://github.com/<username>/rag-assistant-app.git
-cd rag-assistant-project
+cd rag-assistant-app
 
 # Create and activate virtual environment
 python -m venv .venv
