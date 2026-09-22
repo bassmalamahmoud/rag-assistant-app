@@ -1,0 +1,36 @@
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment configurations
+.env
+*.local
+
+# Logs
+*.log
+logs/
+
+# Large vector store artifacts
+data/vector_store/
+backend/data/vector_store/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
