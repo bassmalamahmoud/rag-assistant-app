@@ -318,3 +318,7 @@ A: Update `EMBEDDING_MODEL_NAME` in `backend/.env` (e.g. `BAAI/bge-small-en-v1.5
 
 **Q: Why do I get a 422 error on `/query`?**  
 A: The API enforces non-empty questions via Pydantic validators. Ensure your request body contains a non-blank string in the `"question"` field.
+
+Contributors:
+- Bassmala Mahmoud
+- Salma Ahmed
